@@ -24,7 +24,7 @@ logger.setLevel(logging.INFO)
 
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 # URL del endpoint de la API
-url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={}".format(GOOGLE_API_KEY)
+url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-latest:generateContent?key={}".format(GOOGLE_API_KEY)
 # Cabeceras para la petición
 headers = {
     'Content-Type': 'application/json',
